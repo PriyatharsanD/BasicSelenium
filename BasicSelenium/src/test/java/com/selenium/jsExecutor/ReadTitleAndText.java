@@ -23,5 +23,4 @@ public class ReadTitleAndText {
 		String text = (String)js.executeScript("return document.documentElement.innerText");
 		System.out.println(text);
 	}
-
 }
